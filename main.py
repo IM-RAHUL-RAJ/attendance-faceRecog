@@ -264,7 +264,7 @@ def TrackImages():
         mess._show(title='Data Missing', message='Please click on Save Profile to reset data!!')
         return
     harcascadePath = "haarcascade_frontalface_default.xml"
-    faceCascade = cv2.CascadeClassifier(harcascadePath);
+    faceCascade = cv2.CascadeClassifier(harcascadePath)
 
     cam = cv2.VideoCapture(0)
     font = cv2.FONT_HERSHEY_SIMPLEX
